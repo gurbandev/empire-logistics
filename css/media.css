@@ -1,0 +1,263 @@
+@media only screen and (max-width: 1920px) { 
+    header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    header {
+        display: none;
+    }
+    .service_offset {
+        margin-right: 5px;
+    }
+    .service_offset:last-child {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 992px) { 
+    header {
+        display: none;
+    }
+    .row-2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        margin-right: auto;
+        margin-left:auto;
+    }
+    .border-1 {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .row-4 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    header {
+        display: flex;
+    }
+    .navbar {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .burger-menu li {
+        font-size: 32px;
+        padding-top: 12px;
+    }
+    .counter-block {
+        display: block;
+        padding-top: 0;
+    }
+    .counter-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0;
+    }
+    .counter-text {
+        display: none;
+    }
+    .count-1 {
+        padding-top: 20px;
+    }
+    .count-2 {
+        padding-top: 20px;
+    }
+    .count-3 {
+        padding-top: 20px;
+    }
+    .bg-image_counter {
+        background-image: none;
+    }
+    .service {
+        margin-top: -45px;
+        height: 1670px;
+    }
+    .row-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left:auto;
+    }
+    .border-1 {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .pageup {
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 100%;
+        z-index: 100;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .row-3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-right: auto;
+        margin-left:auto;
+    }
+
+    .row-4 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-right: auto;
+        margin-left:auto;
+    }
+
+    .news_img.mr-3 {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #name, #mail, #phone, #message {
+        width: 290px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+    .firms_img img {
+        width: 300px;
+        margin: 10px auto;
+        display: block;
+        padding-bottom: 0;
+    }
+    .firms_img {
+        padding-bottom: 0;
+    }
+    .border_text {
+        font-weight: 100;
+        font-size: 22px;
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .write-us_title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .write-us_subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+    .write_us_plus {
+        padding-top: 15px;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .individual {
+        padding-right: 0;
+    }
+    .row-5{
+        display: block;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .input-label {
+        top: 37px;
+        left: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .logo {
+        display: none;
+    }
+    .img-empire-name {
+        font-size: 4.5rem;
+    }
+    .img-empire-title {
+        font-size: 32px;
+    }
+    .img-empire-subtitle {
+        font-size: 16px;
+    }
+    .navbar {
+        display: none;
+    }
+    .burger-menu li {
+        font-size: 10px;
+        padding-top: 50px;
+    }
+    .counter-block {
+        display: block;
+        padding-top: 0;
+    }
+    .counter-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0;
+    }
+    .counter-container span {
+        font-size: 16px;
+        align-items: center;
+    }
+    .count-1 {
+        padding-top: 10px;
+    }
+    .count-2 {
+        padding-top: 10px;
+    }
+    .count-3 {
+        padding-top: 10px;
+    }
+    .counter-text {
+        display: none;
+    }
+    .index {
+        position: static;
+        height: 375px;
+    }   
+    svg {
+        width: 300px;
+        height: 300px;
+    } 
+    .border-2 {
+        border: none;
+    }
+    .firms_img img {
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 0;
+    }
+    .input {
+        padding: 0;
+    }
+    .border-2_padding {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #name, #phone, #mail, #message {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 230px;
+        height: 40px;
+    }
+    .border_text {
+        padding-top: 0;
+    }
+    .input-label {
+        top: 30px;
+        left: -15px;
+    }
+
+}

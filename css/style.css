@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    background-color: rgb(234, 234, 234);
+    margin: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images {
+    position: relative;
+    top: -150px;
+}
+
+
+
+.mt-n100 {
+    margin-top: -100px
+}
+.name {
+    width: 410px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+.form {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 550px;
+    width: 450px;
+}
+
+.contact {
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 500px;
+    height: 150px;
+    line-height: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+#name {
+    margin-top: 30px;
+    margin-left: 48px;
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+}
+
+
+#tel {
+    margin-left: 23px;
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px ridge;
+    outline: none;
+}
+
+
+#mail {
+    margin-left: 35px;
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px ridge;
+    outline: none;
+
+}
+
+label {
+    margin-left: 20px;
+}
+
+textarea {
+    overflow: hidden;
+    margin-left: 118px;
+    margin-top: -25px;
+    width: 270px;
+    height: 95px;
+    border-radius: 2px;
+    border: 1px ridge;
+    resize: none;
+    outline: none;
+}
+
+
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 100%;
+    padding: 5px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 250px;
+    width: 170px;
+    height: 40px;
+    background-color: #2B2B2B;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid gold;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+span {
+    color: red;
+}
+
+.position-absolute_text {
+    position: relative;
+    z-index: 250;
+    top: -180px;
+}
+
+/* form */
+
+#name, #phone, #mail, #message {
+    margin-top: 30px;
+    margin-left: 48px;
+    width: 315px;
+    height: 32px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 0;
+}
+
+#message {
+    width: 315px;
+    height: 125px;
+}
+
+.input-group {
+    position: relative;
+}
+.input {
+    padding: 10px;
+    border: none;
+    font: inherit;
+    color: white;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+.input-label {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+    color: white;
+}
+.input:focus+.input-label,
+.input:valid+.input-label {
+    transform: translate(10px, -14px) scale(.8);
+    color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: #242329;
+}
+.input:is(:focus, :valid) {
+    outline-color: #d1c5fc;
+}
+
+.btn_send {
+    display: block;
+    margin: 32px auto;
+    background-color: #2B2B2B;
+    border: 1px solid gold;
+    cursor: pointer;
+}
